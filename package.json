@@ -1,0 +1,33 @@
+{
+  "name": "cloudflarestatictemplate",
+  "version": "1.0.0",
+  "description": "A Cloudflare Static Template with Minified Building",
+  "scripts": {
+    "build": "node scripts/build.js src dist",
+    "dev": "wrangler pages dev ./src --live-reload --ip 0.0.0.0",
+    "serve": "node scripts/build.js src dist && wrangler pages dev ./dist --ip 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwashark/CloudflareStaticTemplate.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "static",
+    "template",
+    "pages"
+  ],
+  "author": "GwaShark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwashark/CloudflareStaticTemplate/issues"
+  },
+  "homepage": "https://github.com/gwashark/CloudflareStaticTemplate#readme",
+  "dependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier": "^4.0.0",
+    "sharp": "^0.33.5",
+    "uglify-js": "^3.19.3",
+    "wrangler": "^3.99.0"
+  }
+}

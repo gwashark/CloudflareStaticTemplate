@@ -1,0 +1,6 @@
+name = "cloudflarestatictemplate"
+pages_build_output_dir = "./dist"
+compatibility_date = "2024-12-25"
+
+[[vars]]
+ABC="123"
