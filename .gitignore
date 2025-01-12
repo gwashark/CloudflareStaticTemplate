@@ -79,6 +79,9 @@ web_modules/
 .env.production.local
 .env.local
 
+# clouflare environment variable files
+.dev.vars
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
