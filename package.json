@@ -28,6 +28,6 @@
     "html-minifier": "^4.0.0",
     "sharp": "^0.33.5",
     "uglify-js": "^3.19.3",
-    "wrangler": "^3.107.2"
+    "wrangler": "^4.24.3"
   }
 }
