@@ -1,3 +1,6 @@
+# --- ARCHIVED ---
+No longer a Maintained Project
+
 # Cloudflare Static Template
 This template has the required needs to deploy the smoothest and fastest site on Cloudflare Pages. It includes the following features:
 - [x] Image Optimization
